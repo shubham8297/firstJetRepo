@@ -19,7 +19,7 @@ class AddEmpVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print("viewDidLoad executed!")
         // Do any additional setup after loading the view.
     }
     
