@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         print(NSHomeDirectory())
         
+        print("ViewDidLoad execued..")
         // target-action pattern
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "plus"), style: .plain, target: self, action: #selector(addClicked))
         
